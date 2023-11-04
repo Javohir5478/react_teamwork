@@ -3,7 +3,7 @@ import axios from "axios";
 
   
   const  request = axios.create({
-    baseURL:"https://650ba39ddfd73d1fab0a1a39.mockapi.io/products",
+    baseURL:"https://api.escuelajs.co/api/v1/products",
     timeout:10000,
 
   })

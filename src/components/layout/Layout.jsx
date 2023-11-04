@@ -1,14 +1,17 @@
 import { Fragment } from "react";
-import Header from "../header/Header"
+import Header from "../header/Header";
+import {Outlet} from 'react-router-dom';
+import Footer from "../footer/Footer";
 
-export default function Layout() {
+export  function Layout() {
   return (
     <Fragment>
     
     <Header/>
     <main>
-      <h1>outlet</h1>
+      <Outlet/>
     </main>
+    <Footer/>
         
     </Fragment>
   )
