@@ -24,7 +24,7 @@ export default function Moloko() {
               <div className="product">
               <div className='card-all'>
                 <div className="card">
-
+                  
                 </div>
 
                 <div className="card">
