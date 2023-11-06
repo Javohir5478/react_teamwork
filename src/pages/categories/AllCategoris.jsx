@@ -1,9 +1,10 @@
+
 import { Link } from 'react-router-dom';
-import './AllCategoris.scss';
 
 export default function AllCategoris() {
   return (
     <div>
+       
         <div className='Category'><br />
             <div className='pages'><a className='glavni-text' href='src/pages/HomePage/HomePage.jsx'>Главная</a> <img src="src/pages/categories/img/chevron-right.svg" alt="" /> <p className='katalog-text'>Каталог</p></div><br />
             <div className='page-name'><p>Каталог</p></div><br />

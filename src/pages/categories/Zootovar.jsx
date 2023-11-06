@@ -1,6 +1,18 @@
 import './AllCategoris.scss';
+import Slider from '@mui/material/Slider';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 export default function Zootovar() {
+  const [value, setValue] = useState([25, 75]);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  function valuetext(value) {
+    return `${value}$`;
+  }
+
   return (
     <div>
        <div className='Category'><br />
@@ -14,19 +26,16 @@ export default function Zootovar() {
                   <p>Цена</p>
                   <button className='clear-i'>Очистить</button>
                   </div><br />
-                  <div className="s-i">
-                    <input type="number" placeholder='1'/>
-                    <img src="src/pages/categories/img/minus.png" alt="" />
-                    <input type="number" placeholder='100'/>
-                  
-                  </div>
                   <div>
-                    <div className='ind-1'>
-                      <div className='ind-2'>
-                        <div className="ind-3"></div>
-                        <div className="ind-4"></div>
-                      </div>
-                    </div>
+                  <br /><br /><br /><br />
+              <Slider className='slider'
+              value={value}
+              onChange={handleChange}
+              valueLabelDisplay='auto'
+              valueLabelFormat={valuetext}
+              min={0}
+              max={100}
+            />
                   </div>
               </div>
               </div>
