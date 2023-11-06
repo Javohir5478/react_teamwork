@@ -1,10 +1,10 @@
+import { Link } from 'react-router-dom';
 import './AllCategoris.scss';
 export default function Moloko() {
- 
   return (
     <div>
         <div className='Category'><br />
-            <div className='pages'><a className='glavni-text' href='src/pages/HomePage/HomePage.jsx'>Главная</a> <img src="src/pages/categories/img/chevron-right.svg" alt="" /> <p className='katalog-text-2'>Каталог</p> <img src="src/pages/categories/img/chevron-right.svg" alt="" /><p className='katalog-text'>Молоко, сыр, яйцо</p></div><br />
+            <div className='pages'><a className='glavni-text' href='src/pages/HomePage/HomePage.jsx'>Главная</a> <img src="src/pages/categories/img/chevron-right.svg" alt="" /> <Link className='link' to="/"><p className='katalog-text-2'>Каталог</p></Link> <img src="src/pages/categories/img/chevron-right.svg" alt="" /><p className='katalog-text'>Молоко, сыр, яйцо</p></div><br />
             <div className='page-name'><p>Молоко, сыр, яйцо</p></div><br />
             <div className="all">
               <div className="filter">
@@ -18,6 +18,15 @@ export default function Moloko() {
                     <input type="number" placeholder='1'/>
                     <img src="src/pages/categories/img/minus.png" alt="" />
                     <input type="number" placeholder='100'/>
+                  
+                  </div>
+                  <div>
+                    <div className='ind-1'>
+                      <div className='ind-2'>
+                        <div className="ind-3"></div>
+                        <div className="ind-4"></div>
+                      </div>
+                    </div>
                   </div>
               </div>
               </div>
