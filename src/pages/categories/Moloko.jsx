@@ -1,11 +1,14 @@
 import Slider from '@mui/material/Slider';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState } from 'react'
 export default function Moloko() {
   const [value, setValue] = useState([25, 75]);
-
   const handleChange = (event, newValue) => {
     setValue(newValue);
+
+
+
+    
   };
 
   function valuetext(value) {
