@@ -20,10 +20,10 @@ export default function Clear() {
           <img src="src/pages/categories/img/chevron-right.svg" alt="" />
           <Link className='link' to="/"><p className='katalog-text-2'>Каталог</p></Link>
           <img src="src/pages/categories/img/chevron-right.svg" alt="" />
-          <p className='katalog-text'>Молоко, сыр, яйцо</p>
+          <p className='katalog-text'>Непродовольственные товары</p>
         </div>
         <br />
-        <div className='page-name'><p>Молоко, сыр, яйцо</p></div>
+        <div className='page-name'><p>Непродовольственные товары</p></div>
         <br />
         <div className="all">
           <div className="filter">
