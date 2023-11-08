@@ -1,0 +1,62 @@
+.navbar {
+   background-image: url(../../img/background.png);
+   background-color: antiquewhite;
+   height: 126px;
+   margin-top: 60px;
+   margin-left: -10px;
+}
+
+.all {
+   display: flex;
+   list-style: none;
+   gap: 40px;
+   margin-left: 219px;
+   margin-top: -30px;
+   position: absolute;
+}
+
+.logo{
+   margin-left: 115px;
+   margin-top: 24px;
+}
+
+.online{
+   margin-left: 1070px;
+   margin-top: -25px;
+   row-gap: 16px; 
+}
+
+.online img {
+   margin-left: 16px;
+}
+
+.phone{
+   margin-left: 1272px;
+   margin-top: -30px;
+   position: absolute;
+}
+
+.phone-number{
+   margin-left: 1310px;
+   margin-top: -25px;
+   position: absolute;
+}
+
+.disayn{
+   color: #414141;
+   margin-left: 1272px;
+   margin-top: 6px;
+   position: absolute;
+}
+
+
+.zasovskiy{
+   margin-left: 1330px;
+   margin-top: 12px;
+   position: absolute;
+}
+
+a {
+   text-decoration: none;
+   color: #414141;
+}
