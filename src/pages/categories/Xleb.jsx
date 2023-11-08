@@ -50,15 +50,47 @@ export default function Xleb() {
           <div className="product">
             
             <div className='card-all'>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
+              <div className="card">
+                <img className='cart-img' src="src/pages/categories/img/image (7).png" alt="" />
+                <p className='cart-price'>139,99 ₽</p>
+                <p className='cart-name'>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" />
+              </div>
+              <div className="card"> <img className='cart-img' src="src/pages/categories/img/image (8).png" alt="" />
+                <p className='cart-price'>69,99 ₽</p>
+                <p className='cart-name'>Молоко ПРОСТОКВАШИНО паст. питьевое</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" /></div>
+              <div className="card"> <img className='cart-img' src="src/pages/categories/img/image (9).png" alt="" />
+                <p className='cart-price'>77,99 ₽</p>
+                <p className='cart-name'>Молоко сгущенное РОГАЧЕВ Егорка, цельное</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" /></div>
             </div>
             <br /><br />
             <div className='card-all'>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
+              <div className="card"> <img className='cart-img' src="src/pages/categories/img/image (10).png" alt="" />
+                <p className='cart-price'>1992,99 ₽</p>
+                <p className='cart-name'>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" /></div>
+              <div className="card"> <img className='cart-img' src="src/pages/categories/img/image (11).png" alt="" />
+                <p className='cart-price'>139,99 ₽</p>
+                <p className='cart-name'>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" /></div>
+              <div className="card"> <img className='cart-img' src="src/pages/categories/img/image (7).png" alt="" />
+                <p className='cart-price'>139,99 ₽</p>
+                <p className='cart-name'>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <img className='cart-rating' src="src/pages/categories/img/rating (2).png" alt="" />
+                <button className='cart-button'>В корзину</button>
+                <img className='cart-like' src="src/pages/categories/img/heart.png" alt="" /></div>
             </div>
             <button className='more'>Показать ещё</button>
             <div className='next'>

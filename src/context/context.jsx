@@ -20,9 +20,9 @@ const AppProvider =( {children}) =>{
 
     try{
     const resp = await fetch(request);
-    const list = await resp.json();
-    setData(list);
-    console.log(list);
+    const data = await resp.json();
+    setData(data);
+    console.log(data);
     }
     catch(error) {
         console.log(error);

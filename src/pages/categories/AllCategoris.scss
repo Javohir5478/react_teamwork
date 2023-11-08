@@ -740,3 +740,65 @@
 .MuiSlider-valueLabelLabel{
   line-height: 2.80;  
 }
+
+.cart-img{
+    width: 100%;
+    height: 42%;
+}
+.cart-price{
+    color: #414141;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 13px;
+}
+.cart-name{
+    color:#414141;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    height: 30px;
+    margin-left: 13px;
+}
+.cart-rating{
+margin-top: 10px;
+margin-left: 13px;
+}
+.cart-button{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #70C05B;
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    color: var(--main-secondary, #70C05B);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.cart-button:hover{
+    background-color: #F63;
+    color: white;
+    border: 1px solid #F63;
+}
+.cart-like{
+    display: flex;
+margin-top: -125% !important;
+margin-left: 85%;
+background-color: #f5f3f3;
+border-radius: 5px;
+}
