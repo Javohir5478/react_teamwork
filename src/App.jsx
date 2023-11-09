@@ -11,10 +11,11 @@ import Konditerski from './pages/categories/Konditerski'
 import Cofe from './pages/categories/Cofe'
 import Bakaleya from './pages/categories/Bakaleya'
 import Zdarovie from './pages/categories/Zdarovie'
-import Zootovar from './pages/categories/Zootovar'
+
 import Detski from './pages/categories/Detski'
 import Myasa from './pages/categories/Myasa'
 import Clear from './pages/categories/Clear'
+import Zootovar from './pages/categories/Zootovar'
 
 function App() {
 

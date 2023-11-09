@@ -87,7 +87,7 @@ export default function AllCategoris() {
                 </div> 
 
                  <div className="cardd-zootovar">
-                 <Link className='link' to="/Zootovar">
+                 <Link className='link' to="/Zootovr">
                     <div className="shadow"></div>
                     <p className='card-name'>Зоотовары</p>
                     </Link> 
